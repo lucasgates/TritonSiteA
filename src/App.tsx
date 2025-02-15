@@ -82,11 +82,10 @@ function App() {
               />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-triton-light">
-              Especialistas em Pentest
+            Seu negócio está realmente preparado...
             </h1>
             <p className="text-xl text-triton-light mb-12 max-w-3xl mx-auto">
-              Seu negócio está realmente preparado para atender clientes
-              exigentes e cumprir normas de segurança?
+              para atender clientes exigentes e cumprir normas de segurança?
             </p>
 
             <p className="text-xl text-triton-light mb-12 max-w-3xl mx-auto">
