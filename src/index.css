@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cyber-grid {
+  background-image: linear-gradient(rgba(11, 27, 53, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(11, 27, 53, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.glass-card {
+  backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+@keyframes pulse-border {
+  0% {
+    border-color: rgba(59, 130, 246, 0.5);
+  }
+  50% {
+    border-color: rgba(59, 130, 246, 1);
+  }
+  100% {
+    border-color: rgba(59, 130, 246, 0.5);
+  }
+}
+
+.animate-border {
+  animation: pulse-border 2s infinite;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
