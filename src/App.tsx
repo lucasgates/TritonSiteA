@@ -248,7 +248,7 @@ function App() {
             <div className="glass-card p-8 rounded-xl shadow-lg">
               <Lock className="w-12 h-12 text-triton-accent mb-4" />
               <h3 className="text-xl font-bold mb-4 text-triton-dark">
-                Teste de Intrusão Aplicações Web (Gray Box)
+                Pentest Web Avançado
               </h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-center">
